@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:rgb(180, 224, 250);
+}
+header.cabecera{
+    color: #1a1818;
+    font-size: 15 px;
+    background: rgb(247, 255, 137);
+    width: 90%;
+    margin: 0 auto;
+}
+header.cabecera h1{
+    padding:  1em 1em;
+}
+.articulo{
+    color: rgb(31, 30, 30);
+    font-family: 22px;
+}
+nav.menuprincipal, footer{
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(197, 197, 197);
+}
+aside{
+    float:left;
+    width: 29.8%;
+    background:#F7775B ;
+    max-height: 300px;
+    line-height: 50px;
+    border-bottom: 2px dashed white;
+    border-right: 2px dashed white;
+}
+
+section.seccion{
+    float: left;
+    width: 70%;
+    min-height: 150px;
+    background: rgb(49, 46, 46);
+    text-align: center;
+    line-height: 100px;
+}
+
+header.articulo{
+    float: left;
+    width: 60%;
+    min-height: 20px;
+    background: #a78aeb;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 2px dashed white;
+}
+footer.piepagina{
+    background:#F7775B ;
+    color: white;
+    text-align:center ;
+    line-height: 50px;
+}
+.clearfix{
+    clear: both;
+}
+    
+    
+    
